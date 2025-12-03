@@ -1,0 +1,56 @@
+name: r-seurat-spatial-int
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base=4.3
+  - r-seurat
+  - r-seuratobject
+  - r-tidyverse
+  - r-jsonlite
+  - r-ggplot2
+  - r-ggpmisc
+  - r-scales
+  - r-cowplot
+  - r-gridextra
+  - r-viridis
+  - r-hrbrthemes
+  - r-remotes
+  - r-devtools
+  - r-future
+  - r-future.apply
+  - r-curl
+  - r-hdf5r
+  - r-readr
+  - r-data.table
+  - r-stringr
+  - r-xml2
+  - r-httr
+  - r-patchwork
+  - r-r.utils
+  - r-rmarkdown
+  - jupyter
+  - r-irkernel
+  - libcurl
+  - openssl
+ 
+  # For better memory performance with large matrices (e.g. BPCells)
+  - gcc  # required for compiling some packages from GitHub
+ 
+  # System libraries that may help with package installations
+  - make
+  - cmake
+  - pkg-config
+  - zlib
+  - libxml2
+
+prefix: /home/workspace/environment/sc-seurat
+
+# Post-setup instructions (to run manually after environment creation)
+# install.packages("remotes")  # if not already available
+# remotes::install_github("mojaveazure/seurat-disk")
+# remotes::install_github("bnprks/BPCells/r")
+
+# Additional packages added by KA
+#conda install -c bioconda bioconductor-singlecellexperiment
