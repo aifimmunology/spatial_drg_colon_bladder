@@ -11,6 +11,3 @@ REPO_DIR = Path(__file__).resolve().parents[1]
 
 # CHANGE THIS to your local data directory
 BASE_DIR = Path("/home/workspace/projects/drg")
-
-# Metadata containing manual annotations, housed within repo
-METADATA_DIR = REPO_DIR / "metadata"

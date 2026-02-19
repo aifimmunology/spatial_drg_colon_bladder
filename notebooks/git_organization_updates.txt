@@ -1,0 +1,8 @@
+# Need to clean the data import/export for notebooks. 
+01 - 03 use MC file nameing
+04 onwards, I'm directing to my outputs 
+Ideas: 
+- I can make a cleaner copy of MC outputs from private folder and unify this with the ouputs from my thresholds and figures notebooks
+
+Other points
+- Before finalizing, remove all notebook cell outputs

@@ -1,0 +1,23 @@
+# sc-spatial
+conda env create -p /home/workspace/environment/sc-spatial -f /home/workspace/DRG/spatial_drg_colon_skin/envs/sc-spatial.yaml
+conda activate /home/workspace/environment/sc-spatial
+python -m ipykernel install --user --name=sc-spatial
+
+# sc-scvi
+conda env create -p /home/workspace/environment/sc-scvi -f /home/workspace/DRG/spatial_drg_colon_skin/envs/sc-scvi.yaml
+conda activate /home/workspace/environment/sc-scvi
+python -m ipykernel install --user --name=sc-scvi
+
+# R_integration
+conda env create -p /home/workspace/environment/R_integration -f /home/workspace/DRG/spatial_drg_colon_skin/envs/R_integration.yaml
+conda activate /home/workspace/environment/R_integration
+Rscript -e "IRkernel::installspec(name = 'R_integration', displayname = 'R_integration')"
+# in R
+remotes::install_github("bnprks/BPCells/r")
+remotes::install_github("mojaveazure/seurat-disk")
+
+# sc-scrublet
+conda env create -p /home/workspace/environment/sc-scrublet -f /home/workspace/DRG/spatial_drg_colon_skin/envs/2025-12-03_sc-scrublet.yaml
+conda activate /home/workspace/environment/sc-scrublet
+python -m ipykernel install --user --name=sc-scrublet
+
