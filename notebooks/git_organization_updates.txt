@@ -9,6 +9,9 @@ cp -rv /home/workspace/DRG/sc-spatial-gpu_ide_transfer/projects/20260115_drg-gpu
 - 00b_download_references still need to fix the path / filenames
 - plan to ask agent in vscode to update all the path calls 
 - plan to ask agent to identify the outputs in spatial_mouse_drg_outputs/Kim that are not used or reference anywhere, and then I can delete these
+- paths to MC private folder 00b_download_references   
+    - 00_scanvi-labels.ipynb: ref_data_dir = '/home/workspace/private/projects/kim/drg/data/scrna-seq/h5ad/05_reference' # Concatenated dataset
+    - 01_explort_anndata.ipynb: ref_data_dir = '/home/workspace/private/projects/kim/drg/data/scrna-seq/h5ad/05_reference' # Concatenated dataset
 
 
 ##########
