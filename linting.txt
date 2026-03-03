@@ -1,0 +1,2 @@
+# suggested command
+nbqa ruff notebooks/01_pre-processing/01_create-anndata.ipynb --select=E,F,W --extend-ignore=E402,E501
