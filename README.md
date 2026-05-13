@@ -16,7 +16,7 @@ Single-cell RNA-seq reference datasets:
 
 ## Notebooks
 
-All notebooks are organized in numbered order and should be run sequentially within each stage. Before running, configure file paths in [`config/paths.py`](./config/paths.py) and [`config/paths.R`](./config/paths.R) to match your environment.
+All notebooks are organized in numbered order. Before running, configure file paths in [`config/paths.py`](./config/paths.py) and [`config/paths.R`](./config/paths.R) to match your computing environment.
 
 | Subdirectory                    | Description                                                                                 |
 |---------------------------------|---------------------------------------------------------------------------------------------|
@@ -39,6 +39,6 @@ Conda environment specifications are provided in the [`envs/`](./envs) directory
 
 ## Code Development
 
-Code was developed by @mncowan and finalized by @kathleenabadie.
+Code was developed by [@mncowan](https://github.com/mncowan) and finalized by [@kathleenabadie](https://github.com/kathleenabadie)@kathleenabadie.
 
 
