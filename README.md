@@ -3,6 +3,7 @@
 This repository contains code for processing, analysis, and visualization of Xenium spatial transcriptomics data from dorsal root ganglion (DRG) samples, with focus on colon and bladder innervation. 
 
 ---
+![](.images/xenium_overview.png)
 
 ## Data Availability
 
@@ -39,6 +40,6 @@ Conda environment specifications are provided in the [`envs/`](./envs) directory
 
 ## Code Development
 
-Code was developed by [@mncowan](https://github.com/mncowan) and finalized by [@kathleenabadie](https://github.com/kathleenabadie)@kathleenabadie.
+Analyses were developed by [@mncowan](https://github.com/mncowan) and finalized by [@kathleenabadie](https://github.com/kathleenabadie).
 
 
