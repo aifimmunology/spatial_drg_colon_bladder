@@ -40,6 +40,6 @@ Conda environment specifications are provided in the [`envs/`](./envs) directory
 
 ## Code Development
 
-Analyses were developed by [@mncowan](https://github.com/mncowan) and finalized by [@kathleenabadie](https://github.com/kathleenabadie).
+Analyses were developed by [@mncowan](https://github.com/mncowan) and [@kathleenabadie](https://github.com/kathleenabadie).
 
 
