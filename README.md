@@ -1,6 +1,6 @@
 # DRG Xenium Spatial Transcriptomics Analysis
 
-This repository contains code for processing, analysis, and visualization of Xenium spatial transcriptomics data from dorsal root ganglion (DRG) samples, with focus on colon and bladder innervation. 
+This repository contains code for processing, analysis, and visualization of Xenium spatial transcriptomics data associated with the manuscript *An interorgan neuroimmune circuit promotes visceral hypersensitivity* (Wang et al., Nature, 2026). We identify and spatially map neuron subsets within the L6 dorsal root ganglion (DRG). Using probes specific to AAV-induced *EGFP* and *dTomato* transcripts, we detect colon- and bladder- innervating neurons, respectively, enabling transcriptomic characterization of these organ-specific sensory neurons. 
 
 ---
 ![](.images/xenium_overview.png)
